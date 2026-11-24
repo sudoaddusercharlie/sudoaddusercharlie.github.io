@@ -1,0 +1,31 @@
+@font-face {
+  font-family:"JetBrains Mono";
+  src:url("../fonts/jetbrainsmono.ttf") format("truetype");
+  font-style:normal;
+  font-weight:100 800;
+  font-display:swap;
+}
+@font-face {
+  font-family:Oswald;
+  src:url("../fonts/oswald.ttf") format("truetype");
+  font-style:normal;
+  font-weight:200 700;
+  font-display:swap;
+}
+:root {
+  color-scheme: dark;
+  --paper:#101316;
+  --rail:#151b1e;
+  --panel:#1d1a23;
+  --ink:#f3edf8;
+  --muted:#cbc0d4;
+  --accent:#c5a4ff;
+  --on-accent:#211431;
+  --soft:#302540;
+  --teal:#d1b8ff;
+  --line:#3e364a;
+  --control-line:#827395;
+  --hero-font: Oswald, "Arial Narrow", sans-serif;
+  --display: Georgia, Cambria, serif;
+  --body: "JetBrains Mono", Consolas, "Lucida Console", "Courier New", monospace;
+}
